@@ -1,0 +1,15 @@
+{
+    "autoload": {
+        "psr-4": {
+            "PigeonBoys\\Fastpush\\": "src/"
+        }
+    },
+    "description": "Fastpush is a lightweight PHP package for sending push notifications via an API, offering easy setup with channel and topic management.",
+    "license": "MIT",
+    "name": "pigeonboys/fastpush",
+    "require": {
+        "php": "^7.2 || ^8.0",
+        "guzzlehttp/guzzle": "^7.8"
+    },
+    "type": "library"
+}

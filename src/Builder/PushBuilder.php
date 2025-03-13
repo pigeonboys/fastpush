@@ -28,6 +28,7 @@ class PushBuilder
             $messageArr[] = [
                 'recipients' => $message->recipients,
                 'content' => $message->content,
+                'attachments' => $message->attachments,
             ];
         }
 

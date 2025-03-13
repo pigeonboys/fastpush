@@ -52,11 +52,19 @@ $topic = new Topic(
 $messages = [
     new Message(
         recipients: [100100, 100200],
-        content: 'Hey Folks! That is a test message for 100100 and 100200.'
+        content: 'Hey Folks! That is a test message for 100100 and 100200.',
+        attachments: [
+            'https://cdn.example.com/100100.pdf',
+            'https://cdn.example.com/100200.pdf'
+        ],
     ),
     new Message(
         recipients: [100300, 100400],
-        content: 'Hey Folks! That is a test message for 100300 and 100400.'
+        content: 'Hey Folks! That is a test message for 100300 and 100400.',
+        attachments: [
+            'https://cdn.example.com/100300.pdf',
+            'https://cdn.example.com/100400.pdf'
+        ],
     )
 ];
 

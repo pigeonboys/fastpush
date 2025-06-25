@@ -27,6 +27,7 @@ class PushBuilder
         foreach ($messages as $message) {
             $messageArr[] = [
                 'recipients' => $message->recipients,
+                'subject' => $message->subject,
                 'content' => $message->content,
                 'attachments' => $message->attachments,
             ];
